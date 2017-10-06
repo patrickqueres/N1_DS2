@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+<head>
+	<title>Desafio 01</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel=STYLESHEET href="styles/stylesheets.css" type="text/css">
+</head>
+<body onload="geranumero()">
+	<div id="site">
+
+<div id="header">
+			<div id="logo">
+				<img src="images/soma.jpg" title="Logotipo"/>
+			</div>
+			<div id="emblema">
+				<h1 id="txtemblema">Desafio da soma</h1>
+				<h3 id="txtmenu"></h1>
+				</div>
+			</div>
+		<br>	
+		
+		<div id="conteudo"><!-- abrimos a div conteudo -->
+
+			<div id="conteudo-left" ><center>
+				<br><br><br><br><br><br><br><br><br><br>
+				<form action="/action_page.php" name="formNUM" id="idNUM">
+
+					<label id="txtemblema">Numero 1: </label>
+					<input type="text" name="num1" value="0" id="num1"><br>
+					<label id="txtemblema">Numero 2: </label>
+					<input type="text" name="num2" value="0" id="num2"><br><br>
+				</center>
+			</form>
+			
+		</div>
+		<div id="conteudo-right">
+			<br><br><br><br><br><br><br>
+			<h3 id="titulo">Resultado do [Número 1] + [Número 2]:</h1> <br>
+				<center>
+					<input type="text" name="resultado" id="resultado"><br>
+					<button onClick="verificasoma()">Calcular</button>
+					<center><br><br>
+					<label id="banner"></label>
+				</center>
+				</center>
+				
+				
+				<p id="texto">
+				</p>
+				
+				
+				
+			</div>
+
+		</div><!-- aqui fechamos a div conteudo -->
+		
+		<br>
+		<div id="footer">
+			
+			<img src="images/prefeitura.png">
+
+			<p id="txtfooter">DESAFIO DE MATEMÁTICA</p>
+		</div>
+
+	</div>
+	<script src="meuscript.js">
+		
+		
+	</script>
+	
+	
+</body>
+</html>
